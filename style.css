@@ -1,0 +1,157 @@
+body {
+  background-color: rgb(60, 97, 4);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+header {
+  position: relative;
+}
+.name {
+  font-size: 45px;
+  position: absolute;
+  left: 40%;
+}
+.new_game {
+  position: absolute;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  left: 80%;
+}
+
+.game {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 800px;
+}
+
+.tic {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+}
+.tic section {
+  position: absolute;
+  background-color: rgb(194, 194, 194);
+  width: 33%;
+  height: 33%;
+  text-align: center;
+  padding: 0;
+  font-size: 9rem;
+}
+.one {
+  top: 0;
+  left: 0;
+}
+
+.two {
+  top: 0;
+  left: 33.5%;
+}
+
+.three {
+  top: 0;
+  right: 0;
+}
+
+.four {
+  top: 33.5%;
+  left: 0;
+}
+
+.five {
+  top: 33.5%;
+  left: 33.5%;
+}
+.six {
+  top: 33.5%;
+  right: 0;
+}
+.seven {
+  bottom: 0%;
+  left: 0%;
+}
+.eight {
+  bottom: 0;
+  left: 33.5%;
+}
+.nine {
+  bottom: 0;
+  right: 0;
+}
+
+.message {
+  position: absolute;
+  color: #fff;
+  top: 90%;
+  left: 40%;
+  font-size: 30px;
+}
+
+.player {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  right: 3%;
+  top: 25%;
+  background-color: white;
+}
+
+.player1 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  text-align: center;
+  font-size: 280%;
+}
+.player2 {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  text-align: center;
+  font-size: 260%;
+}
+
+.current {
+  background-color: rgb(143, 7, 7);
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  transition: all 0.75s;
+}
+
+.hidden {
+  display: none;
+}
+
+.diagonal-left {
+  background: url('lines/diagonal-left.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+}
+.diagonal-right {
+  background: url('lines/diagonal-right.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+}
+
+.vertical {
+  background: url('lines/vertical.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+}
+
+.straight {
+  background: url('lines/straight.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+}
